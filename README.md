@@ -2,7 +2,7 @@
 
 A simulated smart-building sensor dashboard — live readings across multiple zones (temperature, energy, air quality, humidity), an alerts panel, and historical trend charts. Built specifically to double as the task environment for an HCI usability comparison (mouse vs. gesture-based interaction).
 
-**🔗 Live demo:** [INSERT YOUR STREAMLIT LINK HERE]
+**🔗 Live demo:** https://smartenv-iot-dashboard-pevbox8zp4p9hhmf4sz4mj.streamlit.app
 
 ## Why this project covers two domains at once
 
@@ -19,21 +19,11 @@ Sensor readings are **simulated**, not from real hardware — connecting physica
 - **Alerts (usability task)**: timed task — acknowledge every active alert as quickly and accurately as possible; used for the mouse-vs-gesture comparison
 - **History**: 24-hour trend charts per zone/metric
 
-## Usability study: mouse vs. gesture control
-
-*(Results to be added here once the study is run — see the companion Virtual Mouse project's protocol.)*
-
-| Metric | Normal mouse | Virtual Mouse (gesture) |
-|---|---|---|
-| Avg. task completion time | *[add]* | *[add]* |
-| Avg. misclicks/failed acknowledgments | *[add]* | *[add]* |
-| Comfort rating (1-5) | n/a | *[add]* |
-
 ## Running locally
 
 ```bash
-git clone https://github.com/kaleemgujjar07/iot-dashboard.git
-cd iot-dashboard
+git clone https://github.com/kaleemgujjar07/SmartEnv-IoT-Dashboard.git
+cd SmartEnv-IoT-Dashboard
 pip install -r requirements.txt
 streamlit run app.py
 ```
@@ -43,16 +33,8 @@ To run the interaction comparison: open this dashboard in your browser, then sep
 ## Project structure
 
 ```
-iot-dashboard/
+SmartEnv-IoT-Dashboard/
 ├── app.py                    # Streamlit dashboard
 ├── requirements.txt
 └── src/
     └── sensor_simulator.py    # simulated sensor data generation
-```
-
-## Contact
-
-**Muhammad Kaleem**
-- Email: muhamadkkaleem@gmail.com
-- GitHub: [@kaleemgujjar07](https://github.com/kaleemgujjar07)
-- LinkedIn: [Muhammad Kaleem](http://www.linkedin.com/in/muhammadkaleem217)
