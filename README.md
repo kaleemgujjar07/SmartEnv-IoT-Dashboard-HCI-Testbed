@@ -22,7 +22,7 @@ Sensor readings are **simulated**, not from real hardware — connecting physica
 ## Running locally
 
 ```bash
-git clone https://github.com/kaleemgujjar07/SmartEnv-IoT-Dashboard.git
+git clone https://github.com/kaleemgujjar07/SmartEnv-IoT-Dashboard-HCI-Testbed.git
 cd SmartEnv-IoT-Dashboard
 pip install -r requirements.txt
 streamlit run app.py
